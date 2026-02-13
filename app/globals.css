@@ -15,14 +15,14 @@
   /* -------------------------------------------------- */
   /* Branding Colors - change these to customize brand */
   /* -------------------------------------------------- */
-  --color-primary: rgb(37 99 235); /* Vibrant blue (blue-600) */
-  --color-primary-foreground: rgb(239 246 255); /* Very light blue (blue-50) */
-  --color-primary-hover: rgb(29 78 216); /* Blue-700 */
-  --color-primary-light: rgb(59 130 246); /* Blue-500 */
-  --color-primary-dark: rgb(30 64 175); /* Blue-700 */
+  --color-primary: rgb(236 72 153); /* Vibrant pink from logo */
+  --color-primary-foreground: rgb(255 255 255); /* White */
+  --color-primary-hover: rgb(219 39 119); /* Darker pink */
+  --color-primary-light: rgb(251 207 232); /* Light pink */
+  --color-primary-dark: rgb(190 18 60); /* Deep pink */
 
   /* Gradient (often part of brand treatment) */
-  --color-gradient-start: rgb(75 85 99); /* Gray-600 */
+  --color-gradient-start: rgb(236 72 153); /* Pink from logo */
   --color-gradient-end: rgb(0 0 0); /* Black */
 
   /* -------------------------------------------------- */
@@ -107,12 +107,12 @@
   /* -------------------------------------------------- */
   /* Branding Colors (Dark) */
   /* -------------------------------------------------- */
-  --color-primary: rgb(59 130 246);
-  --color-primary-foreground: rgb(30 41 59);
-  --color-primary-hover: rgb(96 165 250);
+  --color-primary: rgb(251 207 232);
+  --color-primary-foreground: rgb(17 24 39);
+  --color-primary-hover: rgb(236 72 153);
 
   /* Gradient (brand-like treatment if used) */
-  --color-gradient-start: rgb(75 85 99);
+  --color-gradient-start: rgb(236 72 153);
   --color-gradient-end: rgb(0 0 0);
 
   /* -------------------------------------------------- */

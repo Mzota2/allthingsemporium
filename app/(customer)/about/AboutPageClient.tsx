@@ -8,6 +8,7 @@ import { useTeam } from '@/hooks';
 import { useApp } from '@/contexts/AppContext';
 import { UserRole } from '@/types/user';
 import { ReviewsSection } from '@/components/reviews';
+import { SITE_CONFIG } from '@/lib/config/siteConfig';
 
 export default function AboutPageClient() {
   const { currentBusiness } = useApp();
@@ -18,24 +19,24 @@ export default function AboutPageClient() {
 
   const coreValues = [
     {
-      icon: '💡',
-      title: 'Innovation',
-      description: 'Continuously pushing boundaries to develop groundbreaking solutions that redefine industry standards.',
+      icon: '🌸',
+      title: 'Scent & Self',
+      description: 'We believe fragrance is a powerful form of self-expression, helping you create your unique identity and leave lasting impressions.',
     },
     {
-      icon: '🛡️',
-      title: 'Integrity',
-      description: 'Operating with unwavering honesty, transparency, and ethical conduct in all our engagements.',
+      icon: '✨',
+      title: 'Quality & Curation',
+      description: 'Every perfume and cosmetic in our collection is handpicked for excellence, ensuring only the finest products reach your beauty routine.',
     },
     {
-      icon: '⚙️',
-      title: 'Excellence',
-      description: 'Striving for the highest quality in products and services, always exceeding expectations.',
+      icon: '🤝',
+      title: 'Inclusivity',
+      description: 'Beauty for every mood, style, and skin type. We celebrate diversity and ensure our products enhance your natural beauty, whatever your unique needs.',
     },
     {
-      icon: '✓',
-      title: 'Customer Focus',
-      description: 'Prioritizing client needs and success, building lasting partnerships through dedicated support.',
+      icon: '💝',
+      title: 'Customer Delight',
+      description: 'Your vibe is our priority. From personalized recommendations to exceptional service, we\'re dedicated to making your beauty journey extraordinary.',
     },
   ];
 
@@ -97,7 +98,7 @@ export default function AboutPageClient() {
                 About eShopCure
               </h1>
               <p className="text-lg text-foreground mb-8">
-                eShopCure is a leading innovator in business technology, dedicated to providing scalable and intelligent solutions that drive efficiency, foster collaboration, and unlock growth for enterprises worldwide. Our commitment to excellence is at the heart of everything we do.
+              {currentBusiness?.description || SITE_CONFIG.appDescription} 
               </p>
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-4">
                 <Link href="/contact">

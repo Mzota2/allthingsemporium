@@ -18,10 +18,10 @@ export interface SiteConfig {
 export const SITE_CONFIG: SiteConfig = {
   appTitle: process.env.NEXT_PUBLIC_APP_TITLE || 'All Things Emporium',
   appDescription:
-    process.env.NEXT_PUBLIC_APP_DESCRIPTION || 'Your trusted online shopping destination for quality products and services',
+    process.env.NEXT_PUBLIC_APP_DESCRIPTION || 'Discover your signature scent at ALL THINGS EMPORIUM, your premier destination for curated perfumes and cosmetics. Explore our exclusive collection of captivating fragrances and beauty essentials, meticulously selected to complement every mood, style, and occasion.',
   brandImageUrl:
-    process.env.NEXT_PUBLIC_BRAND_IMAGE_URL || 'https://allthingsemporium.vercel.app/logo.png',
-  defaultBusinessName: process.env.NEXT_PUBLIC_DEFAULT_BUSINESS_NAME || 'Our Business',
+    process.env.NEXT_PUBLIC_BRAND_IMAGE_URL || 'https://allthingsemporium.vercel.app/dark-logo.png',
+  defaultBusinessName: process.env.NEXT_PUBLIC_DEFAULT_BUSINESS_NAME || 'All Things Emporium',
   defaultContactEmail: process.env.NEXT_PUBLIC_DEFAULT_CONTACT_EMAIL || 'hie@allthingsemporium.techcure.tech',
   defaultContactPhone: process.env.NEXT_PUBLIC_DEFAULT_CONTACT_PHONE || '+265 981 819 389',
   appUrl: process.env.NEXT_PUBLIC_APP_URL || 'https://allthingsemporium.vercel.app',
