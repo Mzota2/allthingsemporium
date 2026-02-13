@@ -27,9 +27,9 @@ export const Logo: React.FC<LogoProps> = ({
   const businessName = currentBusiness?.name || '';
   
   const sizes = {
-    sm: 'w-8 h-8',
-    md: 'w-12 h-12',
-    lg: 'w-14 h-14',
+    sm: 'w-12 h-12',
+    md: 'w-14 h-14',
+    lg: 'w-16 h-16',
   };
 
   const textSizes = {
@@ -43,7 +43,7 @@ export const Logo: React.FC<LogoProps> = ({
       {/* Icon */}
       {(variant === 'default' || variant === 'icon-only') && (
         <div className={cn(
-          'flex items-center justify-center shrink-0 bg-black rounded-full dark:bg-transparent',
+          'flex items-center justify-center shrink-0 ',
           sizes[size]
         )}>
           <Image
