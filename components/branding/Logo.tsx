@@ -27,9 +27,9 @@ export const Logo: React.FC<LogoProps> = ({
   const businessName = currentBusiness?.name || '';
   
   const sizes = {
-    sm: 'w-12 h-12',
-    md: 'w-14 h-14',
-    lg: 'w-16 h-16',
+    sm: 'w-8 h-8',
+    md: 'w-12 h-12',
+    lg: 'w-14 h-14',
   };
 
   const textSizes = {
